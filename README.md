@@ -1,12 +1,12 @@
 # UART DMA Echo Example with STM32F446RE
 
-## 📄 Description
+## Description
 
 This project demonstrates how to **receive data via UART using DMA** on the STM32F446RE microcontroller and **echo it back** using interrupt-driven logic. It uses the **UART IDLE line interrupt** to detect when the end of data reception occurs and immediately echoes the received data.
 
 ---
 
-## 🔧 Hardware Used
+## Hardware Used
 
 - **Board**: STM32 Nucleo-F446RE  
 - **UART Interface**: USART2 (connected to ST-Link Virtual COM port)  
@@ -15,7 +15,7 @@ This project demonstrates how to **receive data via UART using DMA** on the STM3
 
 ---
 
-## ⚙️ Peripherals Configuration
+## Peripherals Configuration
 
 ### UART (USART2)
 - **Baud Rate**: `115200`
@@ -35,7 +35,7 @@ This project demonstrates how to **receive data via UART using DMA** on the STM3
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. **Initialization**:
    - The system clock and all peripherals are initialized.
@@ -56,7 +56,7 @@ This project demonstrates how to **receive data via UART using DMA** on the STM3
 
 ---
 
-## 📁 Key Files
+## Key Files
 
 | File             | Description                                      |
 |------------------|--------------------------------------------------|
